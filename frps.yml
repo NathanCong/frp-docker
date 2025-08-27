@@ -1,0 +1,9 @@
+services:
+  frps:
+    build: .
+    container_name: system-frps
+    restart: unless-stopped
+    ports:
+      - 8000:8000
+      - 8500:8500
+    command: ["frps", "-c", "/app/frps.toml"]

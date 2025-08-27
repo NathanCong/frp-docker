@@ -1,0 +1,27 @@
+transport.tls.enable = true
+
+serverAddr = "62.234.188.122"
+serverPort = 8000
+
+auth.token = "nathan-032514-cong"
+
+[[proxies]]
+name = "DH-XB"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 8010
+remotePort = 8010
+
+[[proxies]]
+name = "DH-XY"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 8011
+remotePort = 8011
+
+[[proxies]]
+name = "DH-LZR"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 8012
+remotePort = 8012
