@@ -1,0 +1,10 @@
+services:
+  frpc:
+    build: .
+    container_name: system-frpc
+    restart: unless-stopped
+    ports:
+      - 8010:8010
+      - 8011:8011
+      - 8012:8012
+    command: ["frpc", "-c", "/app/frpc.toml"]

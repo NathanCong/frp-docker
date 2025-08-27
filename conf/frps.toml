@@ -1,0 +1,10 @@
+bindPort = 8000
+
+transport.tls.force = true
+
+auth.token = 'nathan-032514-cong'
+
+webServer.addr = '0.0.0.0'
+webServer.port = 8500
+webServer.user = 'NathanCong'
+webServer.password = 'CYN@032514'
