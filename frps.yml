@@ -1,7 +1,0 @@
-services:
-  frps:
-    build: .
-    container_name: system-frps
-    restart: unless-stopped
-    network_mode: host
-    command: ["frps", "-c", "/app/frps.toml"]

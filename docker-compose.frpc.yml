@@ -1,0 +1,8 @@
+services:
+  frpc:
+    build: .
+    image: frpc:latest
+    container_name: system-frpc
+    restart: unless-stopped
+    network_mode: host
+    command: ["frpc", "-c", "/app/frpc.toml"]
