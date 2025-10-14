@@ -25,3 +25,17 @@ type = "tcp"
 localIP = "127.0.0.1"
 localPort = 8012
 remotePort = 8012
+
+[[proxies]]
+name = "SQS-12169"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 12169
+remotePort = 12169
+
+[[proxies]]
+name = "SQS-12179"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 12179
+remotePort = 12179
