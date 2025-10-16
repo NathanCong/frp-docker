@@ -5,4 +5,6 @@ services:
     container_name: system-frps
     restart: unless-stopped
     network_mode: host
-    command: ["frps", "-c", "/app/frps.toml"]
+    volumes:
+      - ${VOLUMES_CONF_PATH}:/app/conf
+    command: ["frps", "-c", "/app/conf/frps.toml"]
