@@ -41,6 +41,13 @@ localPort = 12179
 remotePort = 12179
 
 [[proxies]]
+name = "SQS-12166"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 12166
+remotePort = 12166
+
+[[proxies]]
 name = "SQS-3000"
 type = "tcp"
 localIP = "127.0.0.1"
