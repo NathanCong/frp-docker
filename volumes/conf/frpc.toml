@@ -46,3 +46,10 @@ type = "tcp"
 localIP = "127.0.0.1"
 localPort = 3000
 remotePort = 3000
+
+[[proxies]]
+name = "SQS-7000"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 7000
+remotePort = 7000
