@@ -6,57 +6,64 @@ serverPort = 8000
 auth.token = "nathan-032514-cong"
 
 [[proxies]]
-name = "DH-XB"
+name = "NGINX_DH-XB"
 type = "tcp"
 localIP = "127.0.0.1"
 localPort = 8010
 remotePort = 8010
 
 [[proxies]]
-name = "DH-XY"
+name = "NGINX_DH-XY"
 type = "tcp"
 localIP = "127.0.0.1"
 localPort = 8011
 remotePort = 8011
 
 [[proxies]]
-name = "DH-LZR"
+name = "NGINX_DH-LZR"
 type = "tcp"
 localIP = "127.0.0.1"
 localPort = 8012
 remotePort = 8012
 
 [[proxies]]
-name = "SQS-12169"
+name = "NGINX_SQS-12169"
 type = "tcp"
 localIP = "127.0.0.1"
 localPort = 12169
 remotePort = 12169
 
 [[proxies]]
-name = "SQS-12179"
+name = "NGINX_SQS-12179"
 type = "tcp"
 localIP = "127.0.0.1"
 localPort = 12179
 remotePort = 12179
 
 [[proxies]]
-name = "SQS-12166"
+name = "NGINX_SQS-12166"
 type = "tcp"
 localIP = "127.0.0.1"
 localPort = 12166
 remotePort = 12166
 
 [[proxies]]
-name = "SQS-3000"
+name = "LOCAL_SQS-CLIENT"
 type = "tcp"
 localIP = "127.0.0.1"
 localPort = 3000
 remotePort = 3000
 
 [[proxies]]
-name = "SQS-7000"
+name = "LOCAL_SQS-SERVER"
 type = "tcp"
 localIP = "127.0.0.1"
 localPort = 7000
 remotePort = 7000
+
+[[proxies]]
+name = "LOCAL_LG-HPG"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 4000
+remotePort = 4000
