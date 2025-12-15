@@ -67,3 +67,10 @@ type = "tcp"
 localIP = "127.0.0.1"
 localPort = 4000
 remotePort = 4000
+
+[[proxies]]
+name = "LOCAL_LG-SAT"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 4001
+remotePort = 4001
