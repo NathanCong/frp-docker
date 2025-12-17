@@ -74,3 +74,10 @@ type = "tcp"
 localIP = "127.0.0.1"
 localPort = 4001
 remotePort = 4001
+
+[[proxies]]
+name = "LOCAL_OBS_SERVER"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 7003
+remotePort = 7003
