@@ -55,6 +55,13 @@ localPort = 3000
 remotePort = 3000
 
 [[proxies]]
+name = "LOCAL_SQS-CLIENT-POC"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 3100
+remotePort = 3100
+
+[[proxies]]
 name = "LOCAL_SQS-SERVER"
 type = "tcp"
 localIP = "127.0.0.1"
